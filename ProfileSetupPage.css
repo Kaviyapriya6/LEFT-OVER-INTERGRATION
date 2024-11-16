@@ -1,0 +1,27 @@
+.profile-setup-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.input-section input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.role-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.role-button:hover {
+  background-color: #43a047;
+}

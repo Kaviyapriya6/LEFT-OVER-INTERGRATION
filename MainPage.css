@@ -1,0 +1,86 @@
+/* MainPage.css */
+.main-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+}
+
+.back-button {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #026ca0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.bell-icon {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.search-bar {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #0288d1;
+  border-radius: 5px;
+}
+
+.waste-food-image {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.view-more {
+  color: #0288d1;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.place-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.place-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0288d1;
+  font-weight: bold;
+}

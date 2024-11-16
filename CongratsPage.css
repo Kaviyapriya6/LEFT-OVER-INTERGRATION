@@ -1,0 +1,32 @@
+/* Congrats Page Styles */
+.congrats-container {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.congrats-icon {
+  font-size: 48px;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.congrats-message {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.congrats-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.congrats-button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,29 @@
+.order-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.buy-again-button, .complaint-button {
+  margin: 0 5px;
+  padding: 10px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complaint-button:hover {
+  background-color: #026ca0;
+}

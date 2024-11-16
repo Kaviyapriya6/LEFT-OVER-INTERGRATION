@@ -1,0 +1,27 @@
+.profile-photo-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.back-button,
+.select-gallery-button,
+.take-photo-button,
+.next-button {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.select-gallery-button:hover,
+.take-photo-button:hover,
+.next-button:hover,
+.back-button:hover {
+  background-color: #e64a19;
+}

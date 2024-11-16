@@ -1,0 +1,67 @@
+/* Complaint Page Styles */
+.complaint-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #f7f7f7;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  resize: none;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+  color: #333;
+}
+
+textarea::placeholder {
+  color: #aaa;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.submit-button,
+.skip-button {
+  width: 120px;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+}
+
+.skip-button {
+  background-color: #ff6f61;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.skip-button:hover {
+  background-color: #e65c50;
+}

@@ -1,0 +1,69 @@
+/* Food Posts Page Styles */
+.food-posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #f7f7f7;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  align-self: flex-start;
+  font-size: 16px;
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.food-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.food-post {
+  padding: 15px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.food-post h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.food-post p {
+  color: #888;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.like-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+.like-button:hover {
+  background-color: #45a049;
+}

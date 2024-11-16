@@ -1,0 +1,23 @@
+.second-page-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.second-page-image {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #fb8c00;
+}

@@ -1,0 +1,84 @@
+/* Map.css */
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+}
+
+.back-button {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #026ca0;
+}
+
+.map-placeholder {
+  width: 90%;
+  max-width: 400px;
+  height: 200px;
+  border: 2px dashed #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  color: #555;
+}
+
+.location-input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #0288d1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.set-location-button {
+  padding: 10px 20px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.set-location-button:hover {
+  background-color: #026ca0;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.person-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.call-button {
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}

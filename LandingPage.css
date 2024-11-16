@@ -1,0 +1,38 @@
+/* Landing Page Styles */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #f7f7f7, #e8e8e8);
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.food-layout {
+  text-align: center;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  max-width: 90%;
+}
+
+.food-layout p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}

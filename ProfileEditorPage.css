@@ -1,0 +1,22 @@
+.profile-editor-container {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.done-button {
+  background-color: #0288d1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}

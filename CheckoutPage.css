@@ -1,0 +1,75 @@
+/* Checkout Page Styles */
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #f7f7f7;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.back-button {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.delivery-container {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.delivery-container h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+.delivery-container p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.edit-button {
+  font-size: 14px;
+  color: #0288d1;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.checkout-button {
+  width: 90%;
+  padding: 15px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.checkout-button:hover {
+  background-color: #45a049;
+}

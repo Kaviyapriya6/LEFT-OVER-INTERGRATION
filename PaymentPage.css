@@ -1,0 +1,19 @@
+.payment-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.payment-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.payment-button {
+  padding: 10px 20px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

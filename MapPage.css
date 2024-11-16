@@ -1,0 +1,49 @@
+.map-container {
+    padding: 20px;
+    background-color: #f0f8f4; /* Light green background */
+  }
+  
+  .back-button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .map-placeholder {
+    height: 300px; /* Placeholder height for map */
+    background-color: #ccc; /* Light grey to represent the map */
+    margin-bottom: 20px;
+  }
+  
+  .contact-container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .person-icon {
+    margin-right: 10px;
+  }
+  
+  .person-name {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .call-button {
+    background-color: #0288d1; /* Button color */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .message-icon {
+    margin-left: 10px;
+  }
+  

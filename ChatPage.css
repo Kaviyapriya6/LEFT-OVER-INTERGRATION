@@ -1,0 +1,71 @@
+/* Chat Page Styles */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #f7f7f7;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.back-button {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.chat-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  width: 90%;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.chat-item:hover {
+  transform: translateY(-5px);
+}
+
+.profile-icon {
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.chat-info {
+  flex-grow: 1;
+}
+
+.chat-info h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+.chat-info p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0;
+}
+
+.chat-time {
+  font-size: 12px;
+  color: #999;
+  align-self: flex-start;
+}

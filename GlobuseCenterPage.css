@@ -1,0 +1,97 @@
+/* Globuse Center Page Styles */
+.globuse-center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+.back-button {
+  align-self: flex-start;
+  font-size: 16px;
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.place-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.place-info {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.popular-tag {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.place-info h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #666;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.heart-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.rating p {
+  color: #444;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.description {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #45a049;
+}

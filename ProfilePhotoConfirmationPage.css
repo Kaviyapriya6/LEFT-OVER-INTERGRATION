@@ -1,0 +1,30 @@
+.profile-photo-confirmation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.back-button,
+.next-button {
+  padding: 10px 20px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover,
+.next-button:hover {
+  background-color: #0277bd;
+}
+
+.uploaded-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #0288d1;
+}
