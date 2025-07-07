@@ -1,0 +1,102 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system with light green theme */
+
+@layer base {
+  :root {
+    --background: 120 25% 98%;
+    --foreground: 120 10% 15%;
+
+    --card: 120 15% 96%;
+    --card-foreground: 120 10% 15%;
+
+    --popover: 120 25% 98%;
+    --popover-foreground: 120 10% 15%;
+
+    --primary: 120 40% 25%;
+    --primary-foreground: 120 10% 98%;
+
+    --secondary: 120 20% 90%;
+    --secondary-foreground: 120 10% 25%;
+
+    --muted: 120 15% 92%;
+    --muted-foreground: 120 8% 45%;
+
+    --accent: 120 30% 85%;
+    --accent-foreground: 120 10% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 120 20% 88%;
+    --input: 120 20% 88%;
+    --ring: 120 40% 25%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 120 20% 96%;
+    --sidebar-foreground: 120 10% 25%;
+    --sidebar-primary: 120 40% 25%;
+    --sidebar-primary-foreground: 120 10% 98%;
+    --sidebar-accent: 120 15% 90%;
+    --sidebar-accent-foreground: 120 10% 25%;
+    --sidebar-border: 120 15% 85%;
+    --sidebar-ring: 120 40% 25%;
+  }
+
+  .dark {
+    --background: 120 15% 8%;
+    --foreground: 120 10% 90%;
+    --card: 120 15% 10%;
+    --card-foreground: 120 10% 90%;
+    --popover: 120 15% 8%;
+    --popover-foreground: 120 10% 90%;
+    --primary: 120 30% 70%;
+    --primary-foreground: 120 15% 10%;
+    --secondary: 120 15% 20%;
+    --secondary-foreground: 120 10% 90%;
+    --muted: 120 15% 15%;
+    --muted-foreground: 120 8% 60%;
+    --accent: 120 20% 25%;
+    --accent-foreground: 120 10% 90%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 120 15% 20%;
+    --input: 120 15% 20%;
+    --ring: 120 30% 70%;
+    --sidebar-background: 120 15% 12%;
+    --sidebar-foreground: 120 10% 85%;
+    --sidebar-primary: 120 30% 70%;
+    --sidebar-primary-foreground: 120 15% 10%;
+    --sidebar-accent: 120 15% 18%;
+    --sidebar-accent-foreground: 120 10% 85%;
+    --sidebar-border: 120 15% 18%;
+    --sidebar-ring: 120 30% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, hsl(120, 30%, 95%) 0%, hsl(120, 25%, 98%) 100%);
+}
+
+.food-card-hover {
+  transition: all 0.3s ease;
+}
+
+.food-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px hsla(120, 40%, 25%, 0.15);
+}
